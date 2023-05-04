@@ -11,3 +11,10 @@ module "for_loops" {
   is_website     = false
   bucket_name    = each.value
 }
+
+/* {
+  each.key              - each.value
+  "my-bucket-for-1-snk" = "my-bucket-for-1-snk"
+  "my-bucket-for-2-snk" = "my-bucket-for-2-snk"
+  "my-bucket-for-3-snk" = "my-bucket-for-3-snk"
+} */
